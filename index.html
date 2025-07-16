@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharad Patel | DevOps Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #3845f8, #b184ff);
+            font-family: 'Poppins', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            background: transparent;
+            padding: 15px;
+            position: absolute;
+            top: 0;
+            font-weight: bold;
+        }
+        nav a {
+            text-decoration: none;
+            color: #1f2937;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #2563eb;
+        }
+        .content {
+            margin-top: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img.profile {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #ffffff;
+        }
+        h1 {
+            margin: 10px 0 5px;
+            font-size: 32px;
+            color: #ffffff;
+        }
+        p {
+            margin: 5px 0 20px;
+            font-size: 18px;
+            color: #ffffff;
+        }
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        .social-icons a img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s;
+        }
+        .social-icons a img:hover {
+            transform: scale(1.2);
+        }
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffe100;
+            color: rgb(40, 0, 140);
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .buttons a:hover {
+            background-color: rgb(40, 0, 140);
+            color: #ffe100;
+        }
+        footer {
+            margin-top: auto;
+            padding: 10px;
+            font-size: 12px;
+            color: #ffffff;
+        }
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 10px;
+                padding: 10px;
+            }
+
+            .content {
+                margin-top: 100px;
+                padding: 0 15px;
+            }
+
+            img.profile {
+                width: 120px;
+                height: 120px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .social-icons a img {
+                width: 30px;
+                height: 30px;
+            }
+
+            .buttons {
+                flex-direction: column;
+                gap: 10px;
+                align-items: center;
+            }
+
+            .buttons a {
+                width: 100%;
+                max-width: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <!-- Removed project and contact from navbar -->
+</nav>
+
+<div class="content">
+    <img src="my_pic.jpg" alt="Profile Photo" class="profile">
+    <h1>Sharad Kumar Patel</h1>
+    <p>Red Hat Certified System Administrator | AWS Certified Associate Solution Architect | DevOps Aficionado</p>
+
+    <div class="social-icons">
+        <a href="https://www.youtube.com/@sharadpatel9513" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+        </a>
+        <a href="https://www.linkedin.com/in/sharad-patel-b01927137/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/sharad1224" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+        </a>
+        <a href="mailto:sharadpatelwdn@gmail.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail">
+        </a>
+    </div>
+
+    <div class="buttons">
+        <a href="SharadPatel CV - July 2025.pdf" download>Download Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="exp.html">Experience</a>
+        <a href="certificate.html">Certifications</a>
+    </div>
+</div>
+
+<footer>
+    Built by Sharad Kumar Patel &copy; 2025
+</footer>
+
+</body>
+</html>
